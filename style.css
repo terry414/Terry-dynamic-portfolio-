@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: #e0f2f7;
+  color: #333;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+header {
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+main {
+  padding: 20px;
+}
+
+.skill-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill-btn {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
